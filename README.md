@@ -98,17 +98,23 @@ The PCB includes provisions for:
 
 # 📂 Repository Structure
 
-ESP32-IoT-4Layer-PCB/
+```text
+ESP32-C3-IoT-Embedded-Custom-PCB/
 │
-├── Hardware/
-├── 
-├──
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
+├── Images/
+├── BOM files/
+├── Drill files/
+├── Gerber files/
+├── custom 3d model libraries/
+├── custom footprint libraries/
+├── custom symbol libraries/
+│
+├── ESP32_IoT_4-layer_PCB.kicad_pcb
+├── ESP32_IoT_4-layer_PCB.kicad_pro
+├── ESP32_IoT_4-layer_PCB.kicad_sch
+│
+└── README.md
+```
 
 
 # 🎯 Project Objectives
