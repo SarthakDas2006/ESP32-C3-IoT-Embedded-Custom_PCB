@@ -101,10 +101,11 @@ The PCB includes provisions for:
 ```text
 ESP32-C3-IoT-Embedded-Custom-PCB/
 │
-├── Images/
 ├── BOM files/
+├── Datasheets/
 ├── Drill files/
 ├── Gerber files/
+├── Images/
 ├── custom 3d model libraries/
 ├── custom footprint libraries/
 ├── custom symbol libraries/
