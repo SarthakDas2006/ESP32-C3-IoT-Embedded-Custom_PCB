@@ -1,0 +1,131 @@
+(footprint "DIOC200X125X110"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.365573 -1.12877 0)
+		(layer "F.SilkS")
+		(uuid "0a20de61-750f-4e79-a187-3ecf5008b695")
+		(effects
+			(font
+				(size 0.200314 0.200314)
+				(thickness 0.050079)
+			)
+		)
+	)
+	(property "Value" "DIOC200X125X110"
+		(at 0.90747 1.126054 0)
+		(layer "F.Fab")
+		(uuid "32a7d47e-d212-4952-a1ea-53cdf4456cfa")
+		(effects
+			(font
+				(size 0.200545 0.200545)
+				(thickness 0.050136)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "646fc6b6-1c7b-4648-b3c8-5c0609a2d623")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586b0045-abe2-43cb-9587-117d03c5d5dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4388d34b-2a55-4716-8029-424d5c3c5f2c")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2bd9014-7a83-43b9-bd90-38f8666ba0e5")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab984e1a-5508-4fbd-a77b-a9567e0bd7a0")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f81295a7-0ece-4eeb-a562-f2c6f947ef72")
+	)
+	(fp_poly
+		(pts
+			(xy -1.00175 -0.1) (xy -0.8 -0.1) (xy -0.8 0.100175) (xy -1.00175 0.100175)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "65d51b4c-5754-4a0a-bfab-038ed237b1e4")
+	)
+	(pad "+" smd rect
+		(at 1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8fc7013d-17ce-4e2f-9973-3719dd223c64")
+	)
+	(pad "-" smd rect
+		(at -1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7161363e-1e75-4dbd-a0a2-b06990f6874a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project Libraries/3d models/LTST-C170TBKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

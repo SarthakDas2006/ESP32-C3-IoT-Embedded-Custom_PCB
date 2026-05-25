@@ -1,0 +1,201 @@
+(footprint "LED_LTST-C170GKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.175 -1.635 0)
+		(layer "F.SilkS")
+		(uuid "2e335d5e-d276-402c-93c9-0698c6484206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_LTST-C170GKT"
+		(at 8.16 1.615 0)
+		(layer "F.Fab")
+		(uuid "9a823771-0dbe-4b5e-b383-56d254188686")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebe6176b-7e34-491a-9bcd-d5bae1d9f6c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be8b52df-7e8c-4539-9035-ec13cf28c1a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.13 -0.625)
+		(end 0.13 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f761e8b7-585a-4752-9821-71c925f2316f")
+	)
+	(fp_line
+		(start -0.13 0.625)
+		(end 0.13 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad916e3b-0be0-42f4-8671-bf6a3b63a165")
+	)
+	(fp_circle
+		(center -2.25 0)
+		(end -2.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "817ebaca-f59d-46bf-a3b4-a444a47f0cc8")
+	)
+	(fp_line
+		(start -1.9 -0.875)
+		(end 1.9 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1593ec3-062a-4e59-85db-16b049c05d97")
+	)
+	(fp_line
+		(start -1.9 0.875)
+		(end -1.9 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bee24074-e1e9-4fde-b04b-6ed6472dd257")
+	)
+	(fp_line
+		(start 1.9 -0.875)
+		(end 1.9 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0948d046-8c4c-4ed5-9d58-b9ef24f54fa8")
+	)
+	(fp_line
+		(start 1.9 0.875)
+		(end -1.9 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f12bc7f-e052-4c7e-b513-36b4735dc18b")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "186184f2-ecf3-4a1b-b2e3-b9c4acdcb44d")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "367716a2-6546-4a7f-b308-e0713bd1bab3")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69e974ad-1aa3-4f56-be5e-444ee3f0010a")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4c4e286-9094-427a-99d2-1e76b2f72ded")
+	)
+	(fp_circle
+		(center -2.25 0)
+		(end -2.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6bd3dac6-a557-4023-88c9-068692613f6d")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d24323f2-8685-4c19-84d4-e115d187c8ab")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "60b666f6-914f-4a89-896d-a44a3cb202a0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project Libraries/3d models/LTST-C170GKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

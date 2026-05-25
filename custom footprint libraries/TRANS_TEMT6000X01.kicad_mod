@@ -1,0 +1,228 @@
+(footprint "TRANS_TEMT6000X01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.077583 -1.607158 0)
+		(layer "F.SilkS")
+		(uuid "9bd8a45e-6d65-45b8-8654-12a6d1bc71d5")
+		(effects
+			(font
+				(size 0.480705 0.480705)
+				(thickness 0.120176)
+			)
+		)
+	)
+	(property "Value" "TRANS_TEMT6000X01"
+		(at 2.585794 1.597795 0)
+		(layer "F.Fab")
+		(uuid "4eca1a47-3147-4b90-87c3-c2ed638c4bc7")
+		(effects
+			(font
+				(size 0.48078 0.48078)
+				(thickness 0.120195)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95ec69f3-1536-4249-88c7-4c0ba6c77f6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24d7e868-5817-47c7-a959-37a429b16e8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.82 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad1acb0b-c418-4360-bfba-9153b03c150d")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 -0.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9e6346e-9592-4ad3-b6c4-de5d0d79cbbd")
+	)
+	(fp_line
+		(start 2.075 0.88)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fedb3ba5-e082-4473-a028-2e574147836f")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -0.83 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27219881-2f65-41f5-9039-fdd75fa13c23")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03bd5b7c-d7db-44fc-a622-052c1c66ddb3")
+	)
+	(fp_line
+		(start -2.555 -1.325)
+		(end 2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57cec015-ac1e-4479-bdad-6faed8f26a9b")
+	)
+	(fp_line
+		(start -2.555 1.325)
+		(end -2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "539ce49a-fcdd-4be4-9d42-c7d7b37d366c")
+	)
+	(fp_line
+		(start 2.555 -1.325)
+		(end 2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "853c2245-a100-4183-a237-6fb4adbe1a9f")
+	)
+	(fp_line
+		(start 2.555 1.325)
+		(end -2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b642a3d6-3de9-44a9-ab10-c05192aceded")
+	)
+	(fp_line
+		(start -2.075 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d51a3d0f-14c6-475e-95ed-dd51b586789e")
+	)
+	(fp_line
+		(start -2.075 1.075)
+		(end -2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "093fb05c-29b3-4774-beb2-fe34508fb605")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d62af702-caca-4cbb-87cd-495e268072e3")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70f98b43-f802-4981-a379-b127cf574312")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dc1655fb-8e3b-4cf1-92d6-43d9b5ec5882")
+	)
+	(pad "1" smd rect
+		(at -1.755 -0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7de047be-43fe-4358-8fd3-07779181e659")
+	)
+	(pad "2" smd rect
+		(at -1.755 0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "124f4fb3-cf7d-4e1b-b61d-c671e2ddc281")
+	)
+	(pad "3" smd rect
+		(at 1.755 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d60658a3-c0aa-4b93-af6f-df42a7296125")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project Libraries/3d models/TEMT6000X01.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,116 @@
+(footprint "CUI_CMC-5042PF-AC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.63543 -4.44807 0)
+		(layer "F.SilkS")
+		(uuid "6a1be775-3bda-47fd-a338-713dbd83fd8f")
+		(effects
+			(font
+				(size 1.000693 1.000693)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_CMC-5042PF-AC"
+		(at 6.98941 4.44779 0)
+		(layer "F.Fab")
+		(uuid "c354bf96-be08-4f80-b135-e531702ccf9f")
+		(effects
+			(font
+				(size 1.00063 1.00063)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d847f0-018d-48d9-a5b5-5e6bda31166e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "833cb0d8-fcd9-4f3f-b458-c6f3e80baa08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "311f1b4b-dd28-4173-b2a2-f1328bc61b75")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1fdb01d4-7d23-4deb-96ed-d379f8b3957d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bae9fae4-46c2-4eba-b31b-6ad1c030a051")
+	)
+	(pad "GND" thru_hole circle
+		(at 1 -0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8baa60e5-513a-4915-afc8-2e973377af18")
+	)
+	(pad "OUT" thru_hole circle
+		(at 1 0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f3e55112-dd86-4567-88b9-7971907c99e6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project Libraries/3d models/CMC-5042PF-AC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
